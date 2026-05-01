@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RIFI SHOP</title>
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0f172a;
+    color: white;
+    text-align: center;
+}
+header {
+    background: #1e293b;
+    padding: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+.container {
+    padding: 20px;
+}
+.card {
+    background: #1e293b;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+button {
+    background: #22c55e;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background: #16a34a;
+}
+</style>
+</head>
+<body>
+
+<header>🔥 RIFI SHOP 🔥</header>
+
+<div class="container">
+    <h2>بيع حسابات فري فاير 💎</h2>
+
+    <div class="card">
+        <h3>حساب أسطوري</h3>
+        <p>السعر: 200 درهم</p>
+        <button onclick="contact()">تواصل</button>
+    </div>
+
+    <div class="card">
+        <h3>حساب نادر</h3>
+        <p>السعر: 500 درهم</p>
+        <button onclick="contact()">تواصل</button>
+    </div>
+
+    <div class="card">
+        <h3>شحن جواهر</h3>
+        <p>بأرخص الأثمنة</p>
+        <button onclick="contact()">تواصل</button>
+    </div>
+</div>
+
+<script>
+function contact() {
+    window.location.href = "https://wa.me/212XXXXXXXXX";
+}
+</script>
+
+</body>
+</html>
